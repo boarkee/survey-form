@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Survey Form</title>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <header>
+  <h1 id="title">Portfolio Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the portfolio</p>
+  <header>
+  <form id="survey-form" action="https://register-demo.freecodecamp.org">
+    <fieldset>
+        <label id="first-name-label">First name <input id="name" type="text" name="first-name" placeholder="Enter your first name" required/></label>
+        <label id="last-name-label">Last name <input id="name" type="text" name="last-name" placeholder="Enter your last name" required/></label>
+        <label id="email-label">E-mail <input id="email" type="email" name="email" placeholder="Enter your email" required/></label>    
+        <label id="number-label"> Age (optional)<input id="number" type="number" name="age" min="13" max="120"/></label>
+    </fieldset>
+    <fieldset>
+        <label>Which option best describes how you feel about the portfolio?</label>
+        <select id="dropdown">
+          <option>Select one</option>
+          <option>I love it!</option>
+          <option>I like it</option>
+          <option>I am indifferent</option>
+          <option>I have seen better</option>
+          <option>I hate it!</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label>Would you recommend this portfolio to a friend?
+        <label><input type="radio" name="recommend" class="inline"/> Definitely</label>
+        <label><input type="radio" name="recommend" class="inline"/> Maybe</label>
+        <label><input type="radio" name="recommend" class="inline"/> Not sure<label>
+        </label>
+    </fieldset>
+    <fieldset>
+        <label>What is your favourite feature of the portfolio? (Select all that apply)
+        <label><input type="checkbox" value="front-end" class="inline"/> Front-end projects</label>
+        <label><input type="checkbox" value="back-end" class="inline"/> Back-end projects</label>
+        <label><input type="checkbox" value="back-end" class="inline"/> Data analysis</label>
+        </label>
+    </fieldset>
+    <fieldset>
+        <label>Any comments or suggestions? <textarea rows="6" cols="30" placeholder="I would like to see more of..."></textarea></label>
+    </fieldset>
+    <fieldset>
+        <input id="submit" type="submit" value"Submit">
+    </fieldset>
+    </form>
+
+</body>
+</html>
