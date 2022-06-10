@@ -5,7 +5,7 @@ body {
     /* background-color: #1b1b32; */
     background-color: #3b3b4f;
     color: #f5f6f7;
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
@@ -89,8 +89,4 @@ input[type="submit"] {
 input[type="checkbox"] {
     min-height: 1.25em;
     min-width: 1.25em;
-}
-
-input[type="radio"] {
-    margin-bottom: ;
 }
